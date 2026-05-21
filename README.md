@@ -1,8 +1,8 @@
-# Axion AOSP UNOFFICIAL | MOTO G84 5G (BANGKK)
+# The Clover Project UNOFFICIAL | MOTO G84 5G (BANGKK)
 
 ---
 
-Get support through the community regarding new updates and bug fixes...
+Get support through the community
 # 
 <p align="center">
   <a href="https://t.me/doxyeycommunity">
