@@ -1,2 +1,219 @@
-The Clover Project | Moto G84 (bangkk)
-• Changelog
+# Device changelog:
+Device:
+• Moto G84 - bangkk
+Status:
+• Stable
+Build date:
+• 21/05/26
+Changed:
+• Partitions ext4 for erofs, For greater speed and agility of the system for extracting files, compressing, etc.
+• GApps type build
+• Modification of lineage_interfaces resources, removing everything except the touch/aidl directory and Android.bp to resolve conflicts with duplicates from the source.
+• Adding domain of sepolicy for hal_lineage_powershare_default.te and hal_lineage_touch_default.te in hardware/motorola
+Add:
+• OTA updates are now possible; you can update directly from the settings using Dirty Flash.
+• Motocamera & DolbySound - Sony
+• The Nexus Pixel launcher has been added instead of the Clover launcher.
+• Added an overlay for the updater to check for updates in the Clover repository for bangkk on my Github.
+• OTAs will be downloaded via ServerHive, resulting in faster download speeds and fewer delays or errors.
+
+# Source changelog:
+===== 20 May 2026 =====
+* Implement Per-app GPU Screen Composition
+* Improved Lockscreen clock animations
+* Update string to May security patch 
+* Redesign About phone UI
+* Under the hood fixes and Optimization
+
+===== 10 April 2026 =====
+
+* Android 16 QPR2 April Update (v3.9)
+* Implemented dynamic VoLTE / VoNR / VoWiFi status bar icons
+* Updated Smartspace to CP1A.260305.018
+* Added Dolby preference entry in the Audio settings category
+* Added option to switch between new dynamic and legacy (filled) style status bar icons
+* Restored 2G option in Preferred Network Type (removed separate 2G toggle)
+* Persist and restore dual-SIM default data preference across reboots
+* Carrier Aggregation toggle now greys out when preferred network type is below LTE
+* Fixed VoLTE not reconnecting after VoWiFi handover
+* Various improvements and optimizations
+
+===== 16 March 2026 =====
+
+* Android 16 QPR2 March Update (v3.8)
+* Added burn-in protection for statusbar
+* Misc improvements and optimizations
+
+===== 11 February 2026 =====
+
+* Option to hide ADB and Developer setting status
+* Fixed Google Photos spoofing
+* Added hide screen capture status feature
+* Unlocked Pixel 3 exclusive wallpaper
+* Improvement of flashlight strength control UX
+* Various under-the-hood bug fixes and optimizations 
+
+===== 29 January 2026 =====
+
+* Added build flag option to switch between Pixel Launcher and Launcher3
+* Fully rebased Launcher3
+* Updated recovery images
+* Added roaming indicator support to statusbar tuner
+* Introduced VoLTE, VoWiFi, HD, and Wi-Fi Calling status bar icons
+* Added toggle to disable the “Data Disabled” indicator icon
+* Added option to display 4G icon instead of LTE
+* Added double-tap gesture to trigger Doze mode
+* Added Auto-Brightness toggle in the brightness slider
+* Added brightness slider position and shape customization
+* Added QS tile shape customization support
+* Added support for Advanced Restart options
+* Added override for Mock Location restrictions feature
+* Added edge-to-edge fullscreen display controller feature
+* Added Wi-Fi and Cellular Quick Settings tiles
+* Added Ringer, Sound Mode, and Volume Quick Settings tiles
+* Added Flashlight Strength control
+* Added per-subscription Force LTE-CA (Carrier Aggregation) override support
+* Various under-the-hood bug fixes and optimizations
+
+===== 13 January 2026 =====
+
+* Android 16 QPR2 January Update (v3.6)
+* Initial Android 16 QPR2 release
+
+===== 03 December 2025 =====
+
+* Android 16 QPR1 December Update (v3.5)
+* Redesigned Settings UI
+* Introduced Force LTE_CA override per subscription
+* Added pure Black theme option for Dark Mode
+* Applied rounded corners across the entire UI
+* Fixed long-press Power button to toggle torch
+* Added double-tap gesture on screen to sleep
+* More optimizations and under-the-hood fixes
+* That wraps up QPR1! See you next month with QPR2 or hopefully even sooner, within the next two weeks
+
+===== 23 November 2025 =====
+
+* Initial Android 16 QPR1 November Update (v3.4)
+* Switched to pixel launcher temporarily
+
+===== 17 October 2025 =====
+
+* Android 16 October update (v3.3)
+* Updated new bootanimation (credit - Sreejith)
+* Enabled force monochrome icons
+* Added AOD on charge
+* Implemented new flash light strength control
+* Added new edge to edge fullscreen display feature
+* Added new fonts,iconpacks and app icons shapes customisation
+* Various under-the-hood bug fixes and optimizations
+
+===== 19 September 2025 =====
+
+* Android 16 September update (v3.2)
+* AIDL: Initial LiveDisplay sysfs AIDL implementation
+* Added auto-brightness toggle to the new Compose QS brightness slider
+* Added GameSpace (because apparently gaming is life)
+* Implemented "click-to-take" partial screenshot feature
+* Moved 4G, Data Disabled, and Wi-Fi standard icons to Statusbar Tuner
+* Added toggle for privacy indicators
+* Various under-the-hood bug fixes and optimizations 
+
+===== 10 August 2025 =====
+
+* Android 16 update (v3.1)
+* Redesigned Settings UI
+* System wide UI related changes
+* Optimized and Improved Launcher
+* Added window level blur support
+* Added dimming the wallpaper with night features
+* Redesigned UDFPS icon
+
+===== 18 July 2025 =====
+
+* Initial Android 16 June Update (v3.0)
+* All previous features retained
+* New Quick Settings panel added
+* Added blur effects on settings search bar
+* Smoother animations throughout the UI
+
+===== 15 June 2025 =====
+
+* A15 QPR2 June Patch Update (v2.7)
+* Added Quick Tap Service
+* Implemented Keybox Spoofing
+* That’s a wrap for Android 15! See you next month as we dive into Android 16.
+
+===== 13 May 2025 =====
+
+* A15 QPR2 May Patch Update (v2.6)
+* Improved charging control with optimizations for better battery management
+* Added Wi-Fi standard indicator in the status bar
+* Enabled default font configuration system-wide
+* Restored animations during Lock/Unlock
+* Added app downgrade support
+* Added toggle to hide screen capture status from apps
+* Option to hide ADB and developer setting status
+* Added AMOLED-themed icon effects
+* Various under-the-hood bug fixes and performance improvements
+
+===== 13 April 2025 =====
+
+* A15 QPR2 April Patch Update (v2.5)
+* Fixed Multiple NPE problems
+* Brought back smartspace start paddings to what they were before
+* Removed more unnecessary smartspace spaces
+* Used Accent colors for privacy indicators
+* Added Multiple Screenrecord options
+* Added App Cloning Feature
+* Many more under-the-hood bug fixes and optimizations
+
+===== 22 March 2025 =====
+
+* Initial QPR2 March 2025 Update (v2.4)
+* Retained the majority of features from the previous update.  
+* Introduced configurable rotation options, supporting 0°, 90°, 180°, and 270° angles.  
+* Added support for Touch Gestures.
+* Expanded ambient settings, providing additional customization options.
+* Integrated support for the Flashlight Strength Quick Settings Tile.
+* Added High Touch Polling Rate support, improving touch responsiveness.
+* Multiple optimizations for improved performance and user experience.
+
+===== 20 February 2025 =====
+
+* Added setting to allow/disallow interacting with quick settings on secure lockscreen
+* Added support for per-app volume
+* Added minimal support for Richtap vibrations
+* Added less boring heads up
+* Added option for AOD on charge
+* Removed screenshot action chip labels
+
+===== 06 February 2025 =====
+
+* Merged February 2025 Security Patch (v2.3)
+* Added Charging Control
+* Added Live Display Support
+* Added App Lock Support
+* Added Option To Hide Power Menu On Secure Lockscreen
+* Added Double Tap To Trigger Doze Option
+* Misc Improvements to Smartspace
+* Updated About Phone Logo
+* Added New Wallpaper Collections
+
+===== 16 January 2025 =====
+
+* Merged January 2025 Security Patch (v2.2)
+* Rebased Launcher3
+* Removed lens option from recents menu (C2S is enough)
+* Overall UI Improvements in Launcher3
+* Updated Branding Images
+* Added Icon Pack Support
+* Disabled Some Broken Pixel Features
+* Redesigned Settings UI
+* Added Force LTE_CA Option
+* Implemented Cutout Force Full Screen
+* Brought back good ol' circle battery style
+* Restored Wifi and Cellular QS Tile
+* Animated Volume Icon When Playing Media
+* Improved Scrolling Cache
+* Updated Advanced Reboot Icons
