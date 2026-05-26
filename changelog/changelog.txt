@@ -4,7 +4,7 @@ Device:
 Status:
 • Stable
 Build date:
-• 21/05/26
+• 26/05/26
 Changed:
 • Partitions ext4 for erofs, For greater speed and agility of the system for extracting files, compressing, etc.
 • GApps type build
@@ -16,6 +16,9 @@ Add:
 • The Nexus Pixel launcher has been added instead of the Clover launcher.
 • Added an overlay for the updater to check for updates in the Clover repository for bangkk on my Github.
 • OTAs will be downloaded via ServerHive, resulting in faster download speeds and fewer delays or errors.
+bangkk: Adding overlays to reduce blur density.
+bangkk: Adding flags to surface flinger increases the process so blur doesn't stutter.
+sm6375: Removing Dolby Sony and replacing it with Dolby Atmos Lunaris.
 
 # Source changelog:
 ===== 20 May 2026 =====
